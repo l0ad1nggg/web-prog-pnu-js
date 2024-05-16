@@ -6,26 +6,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
   homeLink.addEventListener('click', function(event) {
       event.preventDefault();
-      // При кліку на "Додому" оновлюємо категорії
+      // with click on "Home" load home page
       loadCategories();
   });
 
   catalogLink.addEventListener('click', function(event) {
       event.preventDefault();
-      // При кліку на "Каталог" завантажуємо каталог
-      loadCatalog();
+      // with click on "Catalog" load catalog
+      loadCategories();
   });
 
-  // Починаємо з домашньої сторінки
   loadHomePage();
 });
 
 function loadHomePage() {
-  // Очищаємо контейнер категорій
+  // clear the categories container
   const categoriesContainer = document.getElementById('categories');
   categoriesContainer.innerHTML = '';
 
-  // Відображуємо порожній контейнер продуктів
+  // clear the products container
   const productsContainer = document.getElementById('products');
   productsContainer.innerHTML = '';
 }
@@ -48,6 +47,18 @@ function loadCategories() {
               isCatalogOpen = true;
               loadCategory(category.name);
           });
+      });
+
+      // add specials link
+      const specialsLink = document.createElement('a');
+      specialsLink.href = '#';
+      specialsLink.textContent = 'Specials';
+      categoriesContainer.appendChild(specialsLink);
+
+      specialsLink.addEventListener('click', function(event) {
+          event.preventDefault();
+          isCatalogOpen = true;
+          loadSpecials();
       });
   });
 }
@@ -85,8 +96,21 @@ function loadCategory(categoryName) {
       });
 }
 
+function loadSpecials() {
+  const productsContainer = document.getElementById('products');
+  productsContainer.innerHTML = '';
+
+  const categories = ['electronics', 'clothes', 'music'];
+  const randomCategory = categories[Math.floor(Math.random() * categories.length)];
+  loadCategory(randomCategory);
+}
+
 function loadCatalog() {
   isCatalogOpen = true;
+  // loads first category
   const categories = ['electronics', 'clothes', 'music'];
-  loadCategory(categories);
+  categories.forEach(category => {
+      loadCategory(category);
+  });
 }
+
