@@ -1,0 +1,40 @@
+{
+  "catalog_items": [
+    {
+      "id": 11,
+      "short_name": "T-1",
+      "name": "Monte",
+      "description": "Monte — українська кіберспортивна організація, яка спочатку була створена як безорганізаційна команда гравцем Володимиром «Woro2K» Велетнюком. Назва команди походить від міста в Черкаській області під назвою Монастирище.Має команди з Counter-Strike 2, Dota 2."
+    },
+    {
+      "id": 12,
+      "short_name": "T-2",
+      "name": "Natus Vincere",
+      "description": "Natus Vincere (з лат. — «Народжені Перемагати»), скорочено NAVI — українська кіберспортивна організація.Команда стала першою в історії кіберспорту, яка перемогла у трьох головних турнірах з Counter Strike за один рік — World Cyber Games 2010, Intel Extreme Masters та Electronic Sports World Cup.",
+      "created": "2014-01-01"
+    },
+    {
+      "id": 13,
+      "short_name": "T-3",
+      "name": "NIP",
+      "description": "Ninjas in Pyjamas або NIP (укр. Ніндзя в піжамах) — шведська кіберспортивна організація як найбільше відома командою по Counter-Strike 2. Також має свої склади в Valorant, Rainbow Six Siege та FIFA."
+    },
+    {
+      "id": 14,
+      "short_name": "T-4",
+      "name": "FaZe Clan",
+      "description": "FaZe Clan (раніше FaZe Shipping) — професійна північноамериканська кіберспортивна і розважлива організація штаб-квартира яка знаходиться в Лос-Анджелесі, США. Заснована 30 травня 2010 року. Команди FaZe Clan регулярно брали участь у турнірах за Call of Duty, Counter-Strike: Global Offensive, PlayerUnknown's Battlegrounds, Tom Clancy's Rainbow Six Siege, FIFA і Fortnite Chapter 2, PUBG: New State і FIFA Online."
+    },
+    {
+      "id": 15,
+      "short_name": "T-5",
+      "name": "Team Vitality",
+      "description": "Team Vitality — французька кіберспортивна організація, заснована в серпні 2013 року Фаб'єном Девайдом та Ніколя Морером. Також у них є кілька професійних команд та творців контенту з усієї Європи та Індії."
+    }
+  ],
+  "category": {
+    "short_name": "T",
+    "name": "Teams",
+    "special_instructions": "Instruction"
+  }
+}

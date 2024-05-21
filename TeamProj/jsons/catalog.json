@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "short_name": "T",
+    "name": "Teams",
+    "special_instructions": "Information",
+    "url": "jsons/categories/T.json"
+  },
+  {
+    "id": 2,
+    "short_name": "P",
+    "name": "Players",
+    "special_instructions": "Information",
+    "url": "jsons/categories/P/P.json"
+  },
+  {
+    "id": 3,
+    "short_name": "S",
+    "name": "Sponsors",
+    "special_instructions": "Information",
+    "url": "jsons/categories/Sponsors.json"
+  },
+  {
+    "id": 4,
+    "short_name": "F",
+    "name": "Fan-shop",
+    "special_instructions": "Information",
+    "url": "jsons/categories/F.json"
+  },
+  {
+    "id": 5,
+    "short_name": "TR",
+    "name": "Tournaments",
+    "special_instructions": "Information",
+    "url": "jsons/categories/TR/TR.json"
+  }
+]

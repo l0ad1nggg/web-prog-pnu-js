@@ -1,0 +1,136 @@
+@media (max-width: 575px) {
+  .container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .category-card {
+    max-width: 350px;
+    margin-top: 5px;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .containerInd {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .ItemInd {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .category-card {
+    max-width: 450px;
+  }
+  .containerInd {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .ItemInd {
+    max-width: 500px;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .category-card {
+    max-width: 400px;
+  }
+
+  .containerInd {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .ItemInd {
+    max-width: 700px;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+  .container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .category-card {
+    max-width: 450px;
+  }
+
+  .containerInd {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .ItemInd {
+    max-width: 900px;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .category-card {
+    max-width: 450px;
+  }
+
+  .containerInd {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

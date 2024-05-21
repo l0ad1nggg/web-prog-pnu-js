@@ -1,0 +1,73 @@
+#game-container {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  background-color: #f8ea1f;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #game-container {
+    width: 600px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  #game-container {
+    width: 400px;
+    height: 150px;
+  }
+}
+
+#player {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+#player {
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+#username {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.game-title {
+  text-align: center;
+  color: #fff;
+}
+
+.score-info {
+  text-align: center;
+  color: #fff;
+}
+
+#username {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px; /* Adjust width as needed */
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+/* Styles for the "End Game" button */
+#endGameButton {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the "End Game" button */
+#endGameButton:hover {
+  background-color: #45a049; /* Darker green */
+}

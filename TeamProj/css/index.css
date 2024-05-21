@@ -1,0 +1,49 @@
+
+.button-next:link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgb(91, 150, 91);
+  font-size: 30px;
+  color: white;
+  border: 2px solid rgb(91, 150, 91);
+  width: 150px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.button-next:visited {
+  background-color: rgb(91, 150, 91);
+  color: white;
+}
+.button-next:hover {
+  background-color: rgb(91, 150, 91);
+  border: 2px solid rgb(91, 150, 91);
+  color: white;
+}
+.button-next:active {
+  background-color: white;
+  color: rgb(91, 150, 91);
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+
+}
+
+.c_header {
+  background-color: rgb(41, 60, 49);
+  padding: 20px 20px 20px 20px;
+}
+.containerI {
+  display: flex;
+  justify-content: end;
+}
+.Ajax {
+  text-decoration: none;
+  font-size: 50px;
+  position: absolute;
+  left: 50px;
+  color: rgb(171, 196, 151);
+}
+

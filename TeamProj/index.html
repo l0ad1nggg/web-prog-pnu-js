@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cybersport moves</title>
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/nav-styles.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/about-us.css" />
+    <link rel="stylesheet" href="css/media-adaptive.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/category.css" />
+    <link rel="stylesheet" href="css/game.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body class="main">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand fonts" href="index.html">Cybersport Moves</a>
+
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsable-nav"
+            aria-controls="collapsable-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0"
+            id="collapsable-nav"
+          >
+            <ul class="navbar-nav text-center">
+              <li class="nav-item my-1 my-lg-0">
+                <a
+                  class="nav-link mx-2 active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown my-1 my-lg-0">
+                <a
+                  class="nav-link dropdown-toggle mx-2"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+                <ul
+                  class="dropdown-menu text-center"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onclick="$script.loadCategoryItems('T')"
+                      >Teams</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onclick="$script.loadCategoryItems('P')"
+                      >Players</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onclick="$script.loadCategoryItems('S')"
+                      >Sponsors</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onclick="$script.loadCategoryItems('F')"
+                      >Fan-shop</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onclick="$script.loadCategoryItems('TR')"
+                      >Tournaments</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item my-1 my-lg-0">
+                <a
+                  class="nav-link mx-2"
+                  id="navAboutUsButton"
+                  href="#"
+                  onclick="$script.loadAboutUsPage()"
+                >
+                  About us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="Home"></section>
+
+    <h1 class="game-title">Тренуй свою реакцію та набирай бали за захист проекту</h1>
+    <div id="game-container">
+      <div id="player"></div>
+    </div>
+    <p class="score-info">
+      <label for="username">Ім'я:</label>
+      <input type="text" id="username" placeholder="Введіть ваше ім'я" />
+      <button id="endGameButton">Завершити гру</button>
+    </p>
+    <p class="score-info"> <span id="score">0</span></p>
+
+    <footer class="text-center text-lg-start">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a href="https://github.com/" class="name-footer" target="_blank">Cybersport moves</a>
+        <a href="#" id="navAboutUsButton" onclick="$script.loadAboutUsPage()">About us</a>
+      </div>
+    </footer>
+
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

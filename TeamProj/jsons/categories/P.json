@@ -1,0 +1,48 @@
+{
+  "catalog_items": [
+    {
+      "id": 11,
+      "short_name": "P-1",
+      "name": "Somedieyoung(SDY)",
+      "description": "Somedieyoung (також sdy, справжнє ім'я Віктор Оруджев; нар. 14 березня 1997, Костопіль, Рівненська область, Україна) — професійний український кіберспортсмен.",
+      "price": 200000
+     
+    },
+    {
+      "id": 12,
+      "short_name": "P-2",
+      "name": "karrigan",
+      "description": "Фінн Андерсен (нар. 14 квітня 1990 [2] ) - Данський професійний гравець в Counter-Strike 2 , більш відомий під псевдонімом karrigan . Капітан команди FaZe Clan [3] . Також виступав за деякі інші команди, такі, як Fnatic , Team Dignitas , Team SoloMid , Astralis , Mousesports та Team Envy . У 2015 році заснував команду Astralis . Професійно грати почав у 2006 році, коли була популярна гра Counter-Strike 1.6 .",
+      "price": 340000
+      
+    },
+    {
+      "id": 13,
+      "short_name": "P-3",
+      "name": "JL",
+      "description": "Лекавічус Юстінас ( літ. Lekavičius Justinas ; нар. 29 вересня 1999 ), більш відомий під ніком «jL» , - литовський кіберспортсмен, гравець у Counter-Strike: Global Offensive і Counter-Strike 2 , що виступає за організацію Natus Vincere .",
+      "price": 500000
+     
+    },
+    {
+      "id": 14,
+      "short_name": "P-4",
+      "name": "ZywOo",
+      "description": "Матьє Ербо, більш відомий як ZywOo (9 листопада 2000, Ланс) — французький професійний гравець в Counter-Strike: Global Offensive який грає за Team Vitality. Він вважається одним із найкращих гравців в історії Global Offensive, будучи гравцем № 1 у світі за версією HLTV у 2019 та 2020 роках.",
+      "price": 700000
+      
+    },
+    {
+      "id": 15,
+      "short_name": "P-5",
+      "name": "siuhy",
+      "description": "Каміль « siuhy » Szkaradek (народився 26 серпня 2002) — польський професійний гравець у Counter-Strike 2 за MOUZ і колишній гравець у Counter-Strike: Global Offensive .",
+      "price": 1000000
+    }
+  ],
+  "category": {
+    "short_name": "P",
+    "name": "Players",
+    "special_instructions": "Information"
+  }
+}

@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+} 
+
+.text {
+  font-size: 1.2em;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  margin-bottom: 20px;
+}

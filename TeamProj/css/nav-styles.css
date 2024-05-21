@@ -1,0 +1,50 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+header nav {
+  background-color: #000000;
+}
+
+nav .navbar-light .yellow {
+  color: white;
+}
+
+nav.navbar-light li a {
+  color: white;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: rgb(250, 246, 19);
+  color: white;
+}
+
+.navbar-nav > li > .dropdown-menu a {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-nav > li > .dropdown-menu a:hover {
+  background-color: #000000;
+  color: rgb(250, 246, 19);
+}
+
+nav .navbar-nav li a:hover {
+  background-color: rgb(250, 246, 19);
+}
+
+#collapsable-nav .navbar-nav li a.show {
+  background-color: rgb(250, 246, 19);
+  color: black;
+}
+
+#collapsable-nav .nav-link:hover {
+  color: black;
+}
+
+.navbar-brand {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.2);
+}
